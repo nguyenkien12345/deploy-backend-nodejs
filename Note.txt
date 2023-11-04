@@ -1,0 +1,8 @@
+"build-src": "babel src -d build --copy-files"
+Trong đó:
+- src: Tên của folder mà chúng ta muốn biên dịch code (đầu vào)
+- -d:  Tên của folder output sau khi chúng ta biên dịch code (đầu ra)
+- --copy-files: copy non-javascript files (css, html…) (Copy tất cả các file mà không phải là javascript)
+Thứ tự chạy lần lượt là: 
+1) npm run build-src
+2) npm run build
